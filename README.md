@@ -1,3 +1,29 @@
+
+Powerup 
+
+https://developer.atlassian.com/cloud/trello/guides/power-ups/your-first-power-up/
+
+Settings :
+https://trello.com/power-ups/5f8c73398d7d804530195f2d/edit/capabilities
+
+
+https://trello.com/power-ups/admin
+
+https://developer.atlassian.com/cloud/trello/
+
+
+netify
+
+---
+git add .
+git commit -am "make it better"
+git push heroku master
+
+---
+
+
+
+
 # Weather Power-Up for Trello
 
 A small sample Power-Up for Trello that shows weather data on cards. It

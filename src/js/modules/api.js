@@ -2,13 +2,13 @@
 const API_BASE = 'https://api.openweathermap.org/data/2.5/weather?appid=%%APP_ID%%';
 const { Promise } = window.TrelloPowerUp;
 
-const clearCache = t => {
+const clearCache = (t) => {
   if (t.memberCanWriteToModel('card')) {
     t.remove('card', 'shared', 'cache');
   }
 };
 
-const getCachedData = t =>
+const getCachedData = (t) =>
   Promise.all([t.card('coordinates'), t.get('card', 'shared', 'cache')]).then(([card, cache]) => {
     if (!cache) {
       // nothing cached at the moment
@@ -26,7 +26,20 @@ const getCachedData = t =>
       return null;
     }
     // the cache is still relevant (hasn't expired yet)
+
+    //there is no doku to nothing i could not even switch from
+    //german to english doku on trello doku.. nice
+    // so i need to debug card.. to see ??? not doku for the maps plugin zero..
+    //javascript is a big pain.. nothing else..
+    // even webstorm is showing undefined functions
+    // cause not even the editor could state whats usable.. from al lthat import export crap
+    // and trello translations are like google translate nightmare
+    // therefore big projects are using typescript and no js
+
+    console.log(card);
+
     const { latitude, longitude } = card.coordinates;
+
     const location = `${latitude}:${longitude}`;
     if (!cache.location || cache.location !== location) {
       // the location we have cached doesn't match the location of the card
