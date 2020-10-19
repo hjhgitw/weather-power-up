@@ -1,7 +1,7 @@
 
 # Default site wide settings / we disable all for debug
-[build.processing]
-  skip_processing = true
+#[build.processing]
+#  skip_processing = true
 
 # Configure Netlify to serve particular headers for certain routes
 [[headers]]

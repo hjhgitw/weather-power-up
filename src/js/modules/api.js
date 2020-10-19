@@ -26,17 +26,9 @@ const getCachedData = (t) =>
       return null;
     }
     // the cache is still relevant (hasn't expired yet)
+    
 
-    //there is no doku to nothing i could not even switch from
-    //german to english doku on trello doku.. nice
-    // so i need to debug card.. to see ??? not doku for the maps plugin zero..
-    //javascript is a big pain.. nothing else..
-    // even webstorm is showing undefined functions
-    // cause not even the editor could state whats usable.. from al lthat import export crap
-    // and trello translations are like google translate nightmare
-    // therefore big projects are using typescript and no js
-
-    console.log(card);
+    //console.log(card);
 
     const { latitude, longitude } = card.coordinates;
 

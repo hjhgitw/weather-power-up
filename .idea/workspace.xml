@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf37851b-5a0d-41dd-ad87-f68daad4c619" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modules/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/api.js" afterDir="false" />
     </list>
@@ -41,7 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603101310739</updated>
       <workItem from="1603101311884" duration="736000" />
-      <workItem from="1603106987444" duration="1394000" />
+      <workItem from="1603106987444" duration="1754000" />
     </task>
     <servers />
   </component>
